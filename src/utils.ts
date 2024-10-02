@@ -3,8 +3,8 @@ import { revalidatePath } from "next/cache";
 import Swal from "sweetalert2";
 import { experience } from "./app/types/userProfile";
 
-export const jobHunterUrl = process.env.NEXT_PUBLIC_BASEURL
-export const baseUrl = process.env.NEXT_PUBLIC_JSONURL
+export const jobHunterUrl = process.env.NEXT_PUBLIC_BASEURL as string
+export const baseUrl = process.env.NEXT_PUBLIC_JSONURL as string
 
 // "http://localhost:3001";
 
